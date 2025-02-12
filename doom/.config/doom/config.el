@@ -96,3 +96,9 @@
 
   ;; Set initial dir visibility to close
   (setq org-startup-folded t))
+
+;; Show column guide
+(setq-default fill-column 80)
+(global-display-fill-column-indicator-mode t)
+
+
