@@ -99,7 +99,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+z layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+a layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -214,6 +214,9 @@ bindsym $mod+p mode "$mode_system"
 
 # Bind printscreen shortcut
 bindsym $mod+i exec --no-startup-id ~/.config/i3/scripts/print-screen.sh
+
+# Launch file explorer
+bindsym $mod+e exec nautilus
 
 # Monitor setup
 exec --no-startup-id ~/.config/i3/monitor_config.sh
