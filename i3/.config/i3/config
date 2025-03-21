@@ -231,11 +231,10 @@ workspace 10 output DVI-D-0
 # Workspace setup
 exec --no-startup-id ~/.config/i3/workspace_config.sh
 
-# Launch nextcloud at start
+# Launch app at start
 exec --no-startup-id nextcloud
-
-# Use notify daemon
 exec --no-startup-id dunst
+exec --no-startup-id keepassxc
 
 # Setup wallpapers
 # Wait 1 sec before run feh. Without that, xrandr is not fully configured,
