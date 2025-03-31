@@ -101,4 +101,10 @@
 (setq-default fill-column 80)
 (global-display-fill-column-indicator-mode t)
 
+;; Org columns effort estimate
+(setq org-global-properties
+      '(("Effort_ALL" . "0 0:10 0:30 1:00 2:00 3:00 4:00 5:00 6:00 7:00")))
+
+(setq org-columns-default-format
+      "%40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM")
 
