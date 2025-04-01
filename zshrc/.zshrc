@@ -125,3 +125,13 @@ DOOM_EMACS_PATH=~/.config/emacs/bin
 
 # Add new paths to PATH if they exist
 [ -d "$DOOM_EMACS_PATH" ] && PATH="$PATH:$DOOM_EMACS_PATH"
+
+# Ouvre man dans Neovim si installé, sinon utilise man par défaut
+function man() {
+    if command -v nvim &> /dev/null; then
+        nvim -c "Man $*" -c "only"
+    else
+        command man "$@"
+    fi
+}
+

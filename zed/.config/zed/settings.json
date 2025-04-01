@@ -1,0 +1,70 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "ssh_connections": [
+    {
+      "host": "addon-smartlifebiosciences.com.tava6855.odns.fr",
+      "username": "tava6855",
+      "projects": [
+        {
+          "paths": [
+            "~/public_html"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "insecto",
+      "projects": [
+        {
+          "paths": [
+            "~/dev.insectosphere.fr"
+          ]
+        },
+        {
+          "paths": [
+            "~/httpdocs"
+          ]
+        },
+        {
+          "paths": [
+            "~/insectosphere.fr"
+          ]
+        }
+      ]
+    }
+  ],
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "base_keymap": "VSCode",
+  "theme": "Gruvbox Dark",
+  "telemetry": {
+    "metrics": true
+  },
+  "vim_mode": true,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  // "buffer_font_family": "Zed Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "relative_line_numbers": true,
+
+  "file_types": {
+    "HTML": ["tpl"]
+  },
+
+  "format_on_save": "off"
+}

@@ -12,9 +12,7 @@ alias apache-conf='cd /etc/httpd/conf'
 alias php-ini='cd /etc/php'
 alias inertia='cd /home/$USER/Dev/framework/inertiajs'
 alias dot='cd /home/$USER/Dev/dotfiles'
-alias atlas='cd /home/$USER/Dev/projects/atlas'
-alias travl='cd /home/$USER/Dev/projects/playgrounds/travel-life'
-alias gwen='cd /home/$USER/Dev/pro/freelance/gwen-le-gac/www'
+alias smart='~/Code/clients/smartlife/smartlifebiosciences.local'
 
 alias nivm='nvim'
 
