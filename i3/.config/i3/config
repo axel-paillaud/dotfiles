@@ -241,6 +241,7 @@ exec --no-startup-id ~/.config/i3/workspace_config.sh
 exec --no-startup-id nextcloud
 exec --no-startup-id dunst
 exec --no-startup-id keepassxc
+exec --no-startup-id gromit-mpx
 
 # Setup wallpapers
 # Wait 1 sec before run feh. Without that, xrandr is not fully configured,
